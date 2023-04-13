@@ -145,9 +145,25 @@ Apache Kafka тоже считается распределённым броке
 
 Ответ:
 
+Скрипт с docker-compose на Ubuntu 22.04 не пошел – выдает ошибку
 
+WARN[0000] network rmq_2_3: network.external.name is deprecated. Please set network.name with external: true
 
+![screen3](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen3.jpg)
+![screen4](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen4.jpg)
+
+![screen5](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen5.jpg)
+
+Немного подправил скрипт в docker-compose.yaml, но увы…
+
+![screen6](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen6.jpg)
+
+![screen7](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen7.jpg)
+
+Не понимаю, что необходимо исправить, чтобы все пошло.
+
+![screen8](https://github.com/KorolkovDenis/10.2-klasterisacia/blob/main/screenshots/screen8.jpg)
 
  ## Моя работа в Google:
 
-[Моя работа по Кластеризации](https://docs.google.com/)
+[Моя работа по Кластеризации](https://docs.google.com/document/d/1HIsT715M_ligQrpaSZ4mSm-5H6-4ni49/edit?usp=share_link&ouid=104113173630640462528&rtpof=true&sd=true)
